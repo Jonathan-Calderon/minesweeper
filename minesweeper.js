@@ -19,3 +19,12 @@ board[0][1] ='1';
 board[2][2] = 'B';
 
 printBoard(board);
+
+
+const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door'];
+
+const shortWords = words.filter(word => {
+    return word.length < 6;
+});
+
+console.log(shortWords);
